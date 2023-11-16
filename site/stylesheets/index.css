@@ -1,0 +1,15 @@
+h1{
+    font-family: 'Franklin Gothic Medium';
+    opacity: 0.75;
+    background-color: brown;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 15px;
+    transition: 200ms ease-in-out all;
+    
+}
+
+h1:hover{
+    translate: 0 5px;
+    transition: 200ms ease-in-out all;
+}

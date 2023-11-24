@@ -1,14 +1,8 @@
 body{
-    /* height: 3000px; */
-    /* background: linear-gradient(180deg, #0096f2 0%, #137929 40%, #a36105 60%, #8f3e00 70%, #999999 80%, #5e5e5e 90%); */
-    background: linear-gradient(180deg, #0096f2 0%, #0096f2 50%, #ffffff 90%
-    /* , #a36105 60%, #8f3e00 70%, #999999 80%, #5e5e5e 90% */
-    );
+    background: linear-gradient(180deg, #0096f2 0%, #0096f2 50%, #ffffff 90%);
     background-repeat: no-repeat;
-    
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    /* min-width: 600px; */
-    font-size: 120%;
+    font-size: 150%;
 }
 
 h1{
@@ -114,22 +108,17 @@ nav li:nth-child(4):hover{
 }
 header{
     text-wrap: nowrap;
-    margin-left: 4%;
 }
 #clouds{
-    width: fit-content;
-    margin: auto;
-    overflow: hidden;
-    display: inline-block;
+    width: 100%;
+    display: flex;
 }
 img.cloud{
-    /* border: 0.1px solid red; */
-    display: inline;
     margin-left: 1%;
     margin-right: 1%;
-    padding: 0;
     width: 5%;
     float: center;
+    flex: auto;
 }
 #GetButton
 {
@@ -156,9 +145,11 @@ img.cloud{
     margin: auto;
     margin-top: 60px;
     overflow: hidden;
+    display: flex;
 }
 .descbox{
-    width: 350px;
+    min-width: 150px;
+    max-width: 400px;
     padding: 0 6px;
     margin-right: 30px;
     float: left;

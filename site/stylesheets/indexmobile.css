@@ -1,0 +1,32 @@
+@media only screen and (orientation: portrait)
+{
+    body{
+        font-size: 150%;
+    }
+    h2{
+        font-size: 7vw;
+    }
+    h3{
+        font-size: 6vw;
+    }
+    nav li{
+        font-size: 5vw;
+    }
+    #boxes
+    {
+        display: block;
+    }
+    .descbox{
+        min-width: none;
+        max-width: fit-content;
+        width: 99%;
+        float: none;
+    }
+    .descbox p{
+        min-height: 0;
+    }
+    #GetButton{
+        font-size: 5vw;
+        text-wrap: nowrap;
+    }
+}

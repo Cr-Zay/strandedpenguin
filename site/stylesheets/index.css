@@ -110,7 +110,7 @@ header{
     text-wrap: nowrap;
 }
 #clouds{
-    width: 100%;
+	width: 100%;
     display: flex;
 }
 img.cloud{
